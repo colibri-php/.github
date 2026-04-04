@@ -40,6 +40,7 @@ php colibri serve
 | [**docs**](https://github.com/colibri-php/docs) | Documentation (21 guides) |
 | [**starter-portfolio**](https://github.com/colibri-php/starter-portfolio) | Portfolio starter — flat-file, bilingual, no database |
 | [**starter-api**](https://github.com/colibri-php/starter-api) | API starter — URL shortener with SQLite + OpenAPI |
+| [**starter-blog**](https://github.com/colibri-php/starter-blog) | Blog starter — admin panel, TipTap editor, Tailwind, HTMX |
 
 ### Starter Kits
 
@@ -49,6 +50,9 @@ composer create-project colibri-php/starter-portfolio my-site --stability=alpha
 
 # API (SQLite, auth, CRUD, rate limiting)
 composer create-project colibri-php/starter-api my-api --stability=alpha
+
+# Blog (SQLite, admin panel, TipTap, Tailwind, HTMX)
+composer create-project colibri-php/starter-blog my-blog --stability=alpha
 ```
 
 ### Why "Colibri"?
